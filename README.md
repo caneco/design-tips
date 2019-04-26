@@ -8,7 +8,7 @@
 
 If you know the collection of design tips that Steve Schoger has been sharing on twitter for the past years now made with TailwindCSS (and HTML).
 
-This might be helpfull to Tailwind newcommers or someone that needs the markup for a component – Feel free to use them.
+This might be helpful to Tailwind newcommers or someone that needs the markup for a component – Feel free to use them.
 
 ## The Collection
 
