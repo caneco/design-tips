@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The “Design Tips” series now in TailwindCSS</title>
+        <meta name="description" content="The “🔥 Design Tips” series now in TailwindCSS. Contribute to caneco/design-tips development by creating an account on GitHub.">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/tailwindcss/0.7.4/tailwind.min.css">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <meta name="twitter:image:src" content="https://avatars0.githubusercontent.com/u/502041?s=400&amp;v=4">
+        <meta name="twitter:site" content="@github">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="caneco/design-tips">
+        <meta name="twitter:description" content="The “🔥 Design Tips” series now in TailwindCSS. Contribute to caneco/design-tips development by creating an account on GitHub.">
+        <meta property="og:image" content="https://avatars0.githubusercontent.com/u/502041?s=400&amp;v=4">
+        <meta property="og:site_name" content="GitHub"><meta property="og:type" content="object">
+        <meta property="og:title" content="caneco/design-tips">
+        <meta property="og:url" content="https://github.com/caneco/design-tips">
+        <meta property="og:description" content="The “🔥 Design Tips” series now in TailwindCSS. Contribute to caneco/design-tips development by creating an account on GitHub.">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+    </head>
+    <body class="bg-grey-light font-sans subpixel-antialiased w-screen h-screen">
+        <div class="flex flex-col justify-center w-screen h-screen">
+            <hr class="flex-none bg-indigo-dark bg-repeat w-full h-6 m-0" style="background-image:url(https://res.cloudinary.com/caneco/image/upload/v1556202367/caneco.xyz/design-tips/pattern-purple_ben82l.svg)">
+
+            <div class="sm:flex justify-center items-center container mx-auto w-full h-full overflow-y-scroll p-4 sm:px-0 sm:py-8">
+
+                <!-- BEFORE 🔥 DESIGN TIPS -->
+                <section class="w-full lg:w-1/2 md:mx-4 lg:mx-8 mb-4">
+                    <svg class="block fill-current bg-white text-red rounded-full w-8 h-8 mb-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"></path>
+                    </svg>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <div class="flex mb-4">
+                            <img class="block w-12 h-12 rounded-full -ml-1 mr-4" src="data:image/png;base64,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" alt="Vitor Caneco">
+                            <div class="flex-grow">
+                                <p class="text-2xl">Caneco</p>
+                                <p class="text-xs mt-1">@caneco</p>
+                            </div>
+                            <button class="bg-white hover:bg-blue border-blue border-2 text-blue hover:text-white text-sm font-bold rounded-full px-4 h-8" type="button">
+                                Follow
+                            </button>
+                        </div>
+                        <p class="text-sm leading-normal">Husband, dad; &amp;&amp; Full Stack Developer @ MEDICARE // Laravel, Vue, and Tailwind nerd // CrossFit enthusiast</p>
+                        <ul class="list-reset text-xs mt-4">
+                            <li class="flex mt-1">
+                                <svg class="block fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"></path>
+                                </svg>
+                                <span>Lisbon, Portugal</span>
+                            </li>
+                            <li class="flex mt-1">
+                                <svg class="block fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z"></path>
+                                </svg>
+                                <a class="text-black no-underline hover:underline" href="#">www.caneco.xyz</a>
+                            </li>
+                        </ul>
+                        <hr class="border-b border-t mt-4">
+                        <div class="flex justify-between mt-4">
+                            <div class="w-1/3">
+                                <small class="block text-xs font-medium leading-normal">Followers</small>
+                                <span class="block text-2xl">2,300</span>
+                            </div>
+                            <div class="w-1/3">
+                                <small class="block text-xs font-medium leading-normal">Followind</small>
+                                <span class="block text-2xl">1,741</span>
+                            </div>
+                            <div class="w-1/3">
+                                <small class="block text-xs font-medium leading-normal">Likes</small>
+                                <span class="block text-2xl">1,969</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- AFTER 🔥 DESIGN TIPS -->
+                <section class="w-full lg:w-1/2 md:mx-4 lg:mx-8 mb-4 relative">
+                    <svg class="block fill-current bg-white text-green rounded-full w-8 h-8 mb-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1.25 17.292l-4.5-4.364 1.857-1.858 2.643 2.506 5.643-5.784 1.857 1.857-7.5 7.643z"></path>
+                    </svg>
+                    <div class="bg-white rounded-lg shadow p-5">
+                        <div class="flex mb-4">
+                            <img class="block w-12 h-12 rounded-full -ml-1 mr-4" src="data:image/png;base64,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" alt="Vitor Caneco">
+                            <div class="flex-grow">
+                                <p class="text-xl font-bold">Caneco</p>
+                                <p class="text-grey-dark text-base mt-1">@caneco</p>
+                            </div>
+                            <button class="bg-white hover:bg-blue-light border-blue-light border-2 text-blue hover:text-white text-sm font-bold rounded-full px-4 h-8" type="button">
+                                Follow
+                            </button>
+                        </div>
+                        <p class="text-sm leading-normal">Husband, dad; &amp;&amp; Full Stack Developer @ MEDICARE // Laravel, Vue, and Tailwind nerd // CrossFit enthusiast</p>
+                        <ul class="list-reset text-sm mt-4">
+                            <li class="flex mt-1">
+                                <svg class="block fill-current text-grey w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"></path>
+                                </svg>
+                                <span class="text-grey-darker">Lisbon, Portugal</span>
+                            </li>
+                            <li class="flex mt-1">
+                                <svg class="block fill-current text-grey w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M6.188 8.719c.439-.439.926-.801 1.444-1.087 2.887-1.591 6.589-.745 8.445 2.069l-2.246 2.245c-.644-1.469-2.243-2.305-3.834-1.949-.599.134-1.168.433-1.633.898l-4.304 4.306c-1.307 1.307-1.307 3.433 0 4.74 1.307 1.307 3.433 1.307 4.74 0l1.327-1.327c1.207.479 2.501.67 3.779.575l-2.929 2.929c-2.511 2.511-6.582 2.511-9.093 0s-2.511-6.582 0-9.093l4.304-4.306zm6.836-6.836l-2.929 2.929c1.277-.096 2.572.096 3.779.574l1.326-1.326c1.307-1.307 3.433-1.307 4.74 0 1.307 1.307 1.307 3.433 0 4.74l-4.305 4.305c-1.311 1.311-3.44 1.3-4.74 0-.303-.303-.564-.68-.727-1.051l-2.246 2.245c.236.358.481.667.796.982.812.812 1.846 1.417 3.036 1.704 1.542.371 3.194.166 4.613-.617.518-.286 1.005-.648 1.444-1.087l4.304-4.305c2.512-2.511 2.512-6.582.001-9.093-2.511-2.51-6.581-2.51-9.092 0z"></path>
+                                </svg>
+                                <a class="text-blue no-underline hover:underline" href="#">www.caneco.xyz</a>
+                            </li>
+                        </ul>
+                        <hr class="border-b border-t mt-4">
+                        <div class="flex justify-between mt-4">
+                            <div class="w-1/3">
+                                <small class="block text-grey-dark text-sm font-medium leading-normal">Followers</small>
+                                <span class="block text-xl font-medium">2,300</span>
+                            </div>
+                            <div class="w-1/3">
+                                <small class="block text-grey-dark text-sm font-medium leading-normal">Followind</small>
+                                <span class="block text-xl font-medium">1,741</span>
+                            </div>
+                            <div class="w-1/3">
+                                <small class="block text-grey-dark text-sm font-medium leading-normal">Likes</small>
+                                <span class="block text-xl font-medium">1,969</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <aside class="text-red text-sm absolute pin-b pin-l -- animated fadeIn fast delay-1s" style="margin-bottom:-80px;margin-left:20px">
+                        <div class="border-red border-l-2 w-px h-64 relative" style="margin-left:-40px;margin-bottom:-8px">
+                            <div class="border-red border-t-2 w-24 absolute pin-t"></div>
+                            <div class="border-red border-t-2 w-6 absolute pin-t" style="margin-top:110px"></div>
+                            <div class="border-red border-t-2 w-6 absolute pin-t" style="margin-top:180px"></div>
+                            <div class="border-red border-t-2 w-6 absolute pin-b"></div>
+                        </div>
+                        <span>
+                            <b>Make text ligther, not smaller</b>
+                            <code class="block mt-1">font-size: 14px;</code>
+                            <code class="block mt-1">hsl(214, 7% 47%);</code>
+                        </span>
+                    </aside>
+                    <aside class="text-red text-sm absolute pin-b pin-r -- animated fadeIn fast delay-2s" style="margin-bottom:-80px;margin-right:10px">
+                        <div class="border-red border-l-2 w-px h-10 relative" style="margin-left:-30px;margin-bottom:-8px">
+                            <div class="border-red border-t-2 w-4 absolute pin-b"></div>
+                        </div>
+                        <span>
+                            <b>Bolder, not bigger</b>
+                            <code class="block mt-1">font-size: 20px;</code>
+                            <code class="block mt-1">font-weight: medium;</code>
+                        </span>
+                    </aside>
+                </section>
+            </div>
+
+            <blockquote class="flex-none bg-white border-blue-light border-l-4 text-grey-darkest text-sm leading-normal rounded-full shadow relative w-full md:w-3/4 lg:w-1/2 mx-auto mb-4 px-8 py-3 -- _animated faster fadeInUp delay-3s">
+                <svg class="block fill-current bg-white text-blue-light rounded-full w-8 h-8 absolute pin-t pin-l -ml-2 -mt-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.066 9.645c.183 4.04-2.83 8.544-8.164 8.544-1.622 0-3.131-.476-4.402-1.291 1.524.18 3.045-.244 4.252-1.189-1.256-.023-2.317-.854-2.684-1.995.451.086.895.061 1.298-.049-1.381-.278-2.335-1.522-2.304-2.853.388.215.83.344 1.301.359-1.279-.855-1.641-2.544-.889-3.835 1.416 1.738 3.533 2.881 5.92 3.001-.419-1.796.944-3.527 2.799-3.527.825 0 1.572.349 2.096.907.654-.128 1.27-.368 1.824-.697-.215.671-.67 1.233-1.263 1.589.581-.07 1.135-.224 1.649-.453-.384.578-.87 1.084-1.433 1.489z"></path>
+                </svg>
+                <p>Font size isn't always the best way to emphasize or de-emphasize text, try using color and font weight instead.</p>
+                <cite class="block text-grey-dark text-right text-xs mt-1">– Steve Schoger · <a href="https://twitter.com/steveschoger/status/910162010754748416" class="text-grey-dark no-underline hover:underline" tabindex="-1" target="_blank">19 Sep 2017</a></cite>
+            </blockquote>
+            <footer class="bg-indigo-darkest flex-none text-indigo-lightest text-xs text-center leading-normal w-full p-3 z-10">
+                Tailored by <a class="text-indigo-lightest font-bold no-underline hover:underline focus:outline-none" href="http://twitter.com/caneco" target="_blank" tabindex="-1">@caneco</a> and
+                inspired from the <a class="text-indigo-lightest font-bold no-underline hover:underline focus:outline-none" href="https://twitter.com/i/moments/994601867987619840" target="_blank" tabindex="-1">"Design Tips"</a>,
+                a series by <a class="text-indigo-lightest font-bold no-underline hover:underline focus:outline-none" href="http://twitter.com/steveschoger" target="_blank" tabindex="-1">@steveschoger</a>
+                &amp;&amp; <a class="text-indigo-lightest font-bold no-underline hover:underline focus:outline-none" href="http://twitter.com/adamwathan" target="_blank" tabindex="-1">@adamwathan</a>
+            </footer>
+
+        </div>
+    </body>
+</html>
