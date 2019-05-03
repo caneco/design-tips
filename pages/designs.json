@@ -1,0 +1,32 @@
+[
+  {
+    "url": "/20170607-use-icon-on-unordered-list",
+    "thumbnail_url": "https://res.cloudinary.com/caneco/image/upload/w_600,q_80/v1556199763/caneco.xyz/design-tips/20170607_c9q3s4.jpg",
+    "title": "Using a generic icon like an arrow or a checkmark instead of the standard bullet is a great way to add visual interest to unordered lists."
+  },
+  {
+    "url": "/20170608",
+    "thumbnail_url": "https://res.cloudinary.com/caneco/image/upload/w_600,q_80/v1556199762/caneco.xyz/design-tips/20170608_nlh6pm.jpg",
+    "title": "If I am using icons that have more weight than the text, I typically make the icons slightly lighter than the text for inactive states."
+  },
+  {
+    "url": "/20170816",
+    "thumbnail_url": "https://res.cloudinary.com/caneco/image/upload/w_600,q_80/v1556199760/caneco.xyz/design-tips/20170816_dapawr.jpg",
+    "title": "Too many borders can make a design look really busy. Here's a few ideas that are a bit more subtle."
+  },
+  {
+    "url": "/20170907",
+    "thumbnail_url": "https://res.cloudinary.com/caneco/image/upload/w_600,q_80/v1556199760/caneco.xyz/design-tips/20170907_qjgaft.jpg",
+    "title": "This two-column form layout is great for organizing long forms and filling wider screens without using awkward long form fields."
+  },
+  {
+    "url": "/20170919",
+    "thumbnail_url": "https://res.cloudinary.com/caneco/image/upload/w_600,q_80/v1556199760/caneco.xyz/design-tips/20170919_zekysn.jpg",
+    "title": "Font size isn't always the best way to emphasize or de-emphasize text, try using color and font weight instead."
+  },
+  {
+    "url": "/20180927",
+    "thumbnail_url": "https://res.cloudinary.com/caneco/image/upload/w_600,q_80/v1556199760/caneco.xyz/design-tips/20180927_fairip.jpg",
+    "title": "Achieving an accessible contrast ratio is very difficult when using white text on a colored background. Using dark colored text on a soft colored background is much easier to make accessible, and usually looks better to boot."
+  }
+]

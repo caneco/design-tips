@@ -14,8 +14,8 @@ This might be helpful to Tailwind newcommers or someone that needs the markup fo
 
 **There are the ones done so far...**
 
-- [ ] [20170606](https://twitter.com/steveschoger/status/872114194816126977)
-- [x] [20170607](https://twitter.com/steveschoger/status/872478203016826880) 👉 [design-tips.caneco.xyz/20170607](https://design-tips.caneco.xyz/20170607)
+- [ ] [20170606 - Add a Hint Color to Bring Liveliness](https://twitter.com/steveschoger/status/872114194816126977)
+- [x] [20170607 - Use Icon on Unordered list](https://twitter.com/steveschoger/status/872478203016826880) 👉 [design-tips.caneco.xyz/20170607](https://design-tips.caneco.xyz/20170607)
 - [x] [20170608](https://twitter.com/steveschoger/status/872865304719892480) 👉 [design-tips.caneco.xyz/20170608](https://design-tips.caneco.xyz/20170608)
 - [ ] [20170612](https://twitter.com/steveschoger/status/874333097168314370)
 - [ ] [20170620](https://twitter.com/steveschoger/status/877209916179709955)
