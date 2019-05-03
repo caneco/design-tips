@@ -1,6 +1,6 @@
 <template>
   <div class="sm:flex flex-col flex-grow">
-    <div class="sm:flex flex-grow justify-center items-center container mx-auto w-full h-full p-4 sm:px-0 sm:py-8">
+    <div class="sm:flex flex-col flex-grow justify-center items-center container mx-auto w-full h-full p-4 sm:px-0 sm:py-8">
       <!-- BEFORE 🔥 DESIGN TIPS -->
       <section class="w-full flex -mx-2 sm:mb-24">
         <svg class="flex-none fill-current bg-white text-red rounded-full w-8 h-8 ml-2 mr-4"
